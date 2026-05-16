@@ -7,7 +7,7 @@ This project implements a Multilayer Perceptron (MLP) to classify handwritten di
 2. Dataset Link
 The MNIST dataset is used for this project. It is automatically downloaded via the torchvision library.
 
-Official Source: http://yann.lecun.com/exdb/mnist/
+Official Source: http://yann.lecun.com/exdb/mnist/ (data set otomatcily download)
 Dataset Characteristics: 60,000 training images and 10,000 testing images. Each image is a 28x28 grayscale pixel map.
 
 3. Data Preprocessing
@@ -53,8 +53,7 @@ The training and validation curves for Loss and Accuracy are plotted to monitor 
 Prerequisites: Ensure you have Python 3.x installed.
 Clone the repository:
 git clone <YOUR_REPO_LINK>cd <YOUR_REPO_NAME>
-Install required libraries:
-pip install torch torchvision matplotlib numpy scikit-learn
+Install required libraries: It is recommended to use the provided requirements file.
+pip install -r requirements.txt
 Run the code:
-If using the script: python main.py
-If using Jupyter Notebook/Colab: Open Project_Notebook.ipynb and run all cells sequentially. The dataset will download automatically, and training will begin.
+Open the Project_Notebook.ipynb in Jupyter Notebook or Google Colab and run all cells sequentially. The dataset will download automatically.
