@@ -47,12 +47,12 @@ ReLU is less computationally expensive and effectively solves the "vanishing gra
 Sigmoid squashes inputs into a small range [0, 1], which can cause gradients to vanish in deeper layers, resulting in slower convergence and slightly lower accuracy despite using a higher learning rate in Exp 2.
 
 7. Visualizations
-The training and validation curves for Loss and Accuracy are plotted to monitor the training process and check for overfitting. [https://colab.research.google.com/drive/1Pgbal7P54xZkkCO9AjA83YuFocxl9Yqp#scrollTo=kYTICYqnE338&fullscreenOutput=true](https://github.com/bobahany/neural-project/blob/main/README.md)
+The training and validation curves for Loss and Accuracy are plotted to monitor the training process and check for overfitting. [https://colab.research.google.com/drive/1Pgbal7P54xZkkCO9AjA83YuFocxl9Yqp#scrollTo=kYTICYqnE338&fullscreenOutput=true]
 
 8. Instructions for Running the Project
 Prerequisites: Ensure you have Python 3.x installed.
 Clone the repository:
-git clone <YOUR_REPO_LINK>cd <YOUR_REPO_NAME>
+git clone (https://github.com/bobahany/neural-project/edit/main/README.md)
 Install required libraries: It is recommended to use the provided requirements file.
 pip install -r requirements.txt
 Run the code:
